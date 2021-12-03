@@ -1,0 +1,36 @@
+.container-header {
+    width: 95%;
+}
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 5px;
+}
+.header a:hover, .header.active {
+    background-color: #7105e4;
+    color: #fff;
+}
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .header a {
+        float: none;
+        display: block;
+    }
+    .header-right {
+        margin-top: 40px;
+        float: none;
+    }
+}
